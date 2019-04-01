@@ -442,11 +442,11 @@ static void * MWVideoPlayerObservation = &MWVideoPlayerObservation;
 - (void)setNavBarAppearance:(BOOL)animated {
     [self.navigationController setNavigationBarHidden:NO animated:animated];
     UINavigationBar *navBar = self.navigationController.navigationBar;
-    navBar.tintColor = [UIColor whiteColor];
+    navBar.tintColor = [UIColor blackColor];
     navBar.barTintColor = nil;
     navBar.shadowImage = nil;
     navBar.translucent = YES;
-    navBar.barStyle = UIBarStyleBlackTranslucent;
+    navBar.barStyle = UIBarStyleDefault;
     [navBar setBackgroundImage:nil forBarMetrics:UIBarMetricsDefault];
     [navBar setBackgroundImage:nil forBarMetrics:UIBarMetricsLandscapePhone];
 }
